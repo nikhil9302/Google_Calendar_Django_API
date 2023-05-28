@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'google_calender_django_REST_API.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'google_calendar_django_REST_API.settings')
 
 application = get_wsgi_application()
