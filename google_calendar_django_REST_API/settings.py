@@ -23,7 +23,7 @@ env = environ.Env()
 # reading .env file
 environ.Env.read_env()
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env("SECRET_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -126,4 +126,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 GOOGLE_CLIENT_ID='182138757696-unurc80e2pk2mn731lgruqjj165dbsrb.apps.googleusercontent.com'
 GOOGLE_REDIRECT_URI='http://127.0.0.1:8000/rest/v1/calendar/redirect/'
-GOOGLE_CLIENT_SECRET=env("GOOGLE_CLIENT_SECRET")
+GOOGLE_CLIENT_SECRET=os.getenv("GOOGLE_CLIENT_SECRET")
