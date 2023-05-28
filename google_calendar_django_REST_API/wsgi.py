@@ -1,5 +1,5 @@
 """
-WSGI config for google_calender_django_REST_API project.
+WSGI config for google_calendar_django_REST_API project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

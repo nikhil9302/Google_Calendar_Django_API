@@ -1,5 +1,5 @@
 """
-ASGI config for google_calender_django_REST_API project.
+ASGI config for google_calendar_django_REST_API project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
