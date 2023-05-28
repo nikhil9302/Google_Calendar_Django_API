@@ -11,4 +11,6 @@ This view will do two things: <br>
   need to implement mechanism to get access_token from given
   code <br>
   ii) Once got the access_token get list of events in users calendar
-  Screenshots of working of the API provided
+  Screenshots of working of the API provide
+
+Before running the server, you need your provide .env variables `SECRET_KEY` and `GOOGLE_CLIENT_SECRET`
